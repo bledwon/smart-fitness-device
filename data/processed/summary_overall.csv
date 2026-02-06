@@ -1,0 +1,11 @@
+metric,value
+total_daily_activity_rows,1373
+unique_activity_users,35
+unique_sleep_users,24
+avg_steps_per_day,7377.38
+avg_calories_per_day,2294.81
+percent_days_10k_steps,0.3132
+steps_calories_correlation,0.5801
+avg_sleep_hours,6.99
+percent_sleep_lt_7h,0.4415
+weight_log_rows,100
