@@ -41,7 +41,11 @@ Identify trends in smart device usage, apply them to Bellabeat customers, and pr
 - `scripts/` — Python analysis scripts
 - `sql/` — SQL queries to reproduce metrics
 - `r/` — R analysis template
-- `figures/` — charts and slide deck (to be added)
+- `figures/` — charts and Power BI exports
+
+## Power BI Report
+- Power BI Desktop file: `figures/Smart_fitness_device_PowerBI.pbix`
+- Exported report PDF: `figures/Smart_fitness_device_figures.pdf`
 
 ## How to Reproduce
 1. Place the Kaggle Fitbit CSVs in `data/raw/` (see `process.md`).
