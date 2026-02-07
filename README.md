@@ -19,7 +19,7 @@ Identify trends in smart device usage, apply them to Bellabeat customers, and pr
 - Tableau / Power BI (visualization concepts)
 
 ## Data Sources
-- Fitbit Fitness Tracker Data (Kaggle, CC0, Mobius)
+- Fitbit Fitness Tracker Data (Kaggle, CC0, Mobius): https://www.kaggle.com/datasets/arashnic/fitbit
 - Two date ranges: 3/12/2016–4/11/2016 and 4/12/2016–5/12/2016
 - Raw CSVs are stored locally in `data/raw/` (not committed to GitHub)
 
@@ -44,8 +44,12 @@ Identify trends in smart device usage, apply them to Bellabeat customers, and pr
 - `figures/` — charts and Power BI exports
 
 ## Power BI Report
-- Power BI Desktop file: `figures/Smart_fitness_device_PowerBI.pbix`
+- Power BI Desktop file: `figures/Smart_fitness_device_PowerBI.pbix` (open with Power BI Desktop on Windows)
 - Exported report PDF: `figures/Smart_fitness_device_figures.pdf`
+- All visuals are built in Power BI from the processed tables.
+
+## Results at a Glance
+![Average Steps by Day of Week](figures/avg_steps_by_day.png)
 
 ## How to Reproduce
 1. Place the Kaggle Fitbit CSVs in `data/raw/` (see `process.md`).
